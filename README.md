@@ -9,6 +9,9 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [New Beginnings](https://siannas.github.io/blog/new-beginnings/)
+- [My Second Post!](https://siannas.github.io/blog/my-second-post/)
+- [Hello World](https://siannas.github.io/blog/hello-world/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
