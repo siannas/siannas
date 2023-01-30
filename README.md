@@ -28,17 +28,21 @@
         rel="noreferrer"> <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
             alt="csharp" width="40" height="40" /> </a> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="javascript" width="40" height="40" /> </a>
             <a href="https://www.python.org" target="_blank"
         rel="noreferrer"> <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
             alt="python" width="40" height="40" /> </a>
 <h3 align="left">Web Dev Tools:</h3>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+            alt="react" width="40" height="40" /> </a> 
 <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer"> <img
     src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg" alt="gatsby" width="40" height="40" />
     </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-            alt="javascript" width="40" height="40" /> </a> <a href="https://www.mongodb.com/" target="_blank"
+    <a href="https://www.mongodb.com/" target="_blank"
         rel="noreferrer"> <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
             alt="mongodb" width="40" height="40" /> </a> <a href="https://www.mysql.com/" target="_blank"
@@ -47,9 +51,7 @@
             alt="mysql" width="40" height="40" /> </a> <a href="https://www.postgresql.org" target="_blank"
         rel="noreferrer"> <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-            alt="postgresql" width="40" height="40" /> </a>  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-            alt="react" width="40" height="40" /> </a> 
+            alt="postgresql" width="40" height="40" /> </a>  
 <h3 align="left">Game Dev Tools:</h3>
 <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img
             src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender"
