@@ -9,9 +9,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [New Beginnings](https://siannas.github.io/blog/new-beginnings/)
-- [My Second Post!](https://siannas.github.io/blog/my-second-post/)
-- [Hello World](https://siannas.github.io/blog/hello-world/)
+- [Happy Glass Clone Pt 2](https://siannas.github.io/blog/2022/12/27/happy-glass-clone-pt-2/)
+- [Happy Glass Clone pt.1](https://siannas.github.io/blog/2022/12/22/happy-glass-clone-pt-1/)
+- [Squad Condition dalam Gim Heisters](https://siannas.github.io/blog/2022/12/12/squad-condition-dalam-gim-heisters/)
+- [Hierarichal Finite State Machine di Gim Heisters](https://siannas.github.io/blog/2022/12/08/hierarichal-finite-state-machine-di-game-heisters/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
