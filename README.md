@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Annas</h1>
 <h3 align="center">A passionate programmer from Indonesia</h3>
 
-- 👨‍💻 All of my projects are available at [https://siannas.github.io/portfolio](https://siannas.github.io/portfolio)
+- 👨‍💻 All of my projects are available at [https://siannas.github.io/blog/portfolio](https://siannas.github.io/blog/portfolio)
 
 - 📝 I regularly write articles on [https://siannas.github.io/blog](https://siannas.github.io/blog)
 
