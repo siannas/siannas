@@ -9,10 +9,9 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [Happy Glass Clone Pt 2](https://siannas.github.io/blog/2022/12/27/happy-glass-clone-pt-2/)
-- [Happy Glass Clone pt.1](https://siannas.github.io/blog/2022/12/22/happy-glass-clone-pt-1/)
-- [Squad Condition dalam Gim Heisters](https://siannas.github.io/blog/2022/12/12/squad-condition-dalam-gim-heisters/)
-- [Hierarichal Finite State Machine di Gim Heisters](https://siannas.github.io/blog/2022/12/08/hierarichal-finite-state-machine-di-game-heisters/)
+- [Happy Glass Clone pt.1](/notes/1645533974_happy_glass_clone_pt1)
+- [Happy Glass Clone pt.2](/notes/1645965974_happy_glass_clone_pt2)
+- [My Favorite Place to Generate AI Images &amp;amp; Videos &lpar;For Free!&rpar;](/notes/1759044519_my_favorite_place_to_generate_ai_images_and_videos_for_free)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
