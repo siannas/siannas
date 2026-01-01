@@ -9,9 +9,9 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [Happy Glass Clone pt.1](/notes/1645533974_happy_glass_clone_pt1)
-- [Happy Glass Clone pt.2](/notes/1645965974_happy_glass_clone_pt2)
-- [My Favorite Place to Generate AI Images &amp;amp; Videos &lpar;For Free!&rpar;](/notes/1759044519_my_favorite_place_to_generate_ai_images_and_videos_for_free)
+- [Happy Glass Clone pt.1](/blog/notes/1645533974_happy_glass_clone_pt1)
+- [Happy Glass Clone pt.2](/blog/notes/1645965974_happy_glass_clone_pt2)
+- [My Favorite Place to Generate AI Images &amp;amp; Videos &lpar;For Free!&rpar;](/blog/notes/1759044519_my_favorite_place_to_generate_ai_images_and_videos_for_free)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
