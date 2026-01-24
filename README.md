@@ -9,9 +9,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [Happy Glass Clone pt.1](/blog/notes/1645533974_happy_glass_clone_pt1)
-- [Happy Glass Clone pt.2](/blog/notes/1645965974_happy_glass_clone_pt2)
-- [My Favorite Place to Generate AI Images &amp;amp; Videos &lpar;For Free!&rpar;](/blog/notes/1759044519_my_favorite_place_to_generate_ai_images_and_videos_for_free)
+- [Start Off Machine-Learning Study Through JAX Library](/notes/1768700608_start_off_jax_lib_study)
+- [My Favorite Place to Generate AI Images &amp;amp; Videos &lpar;For Free!&rpar;](/notes/1759044519_my_favorite_place_to_generate_ai_images_and_videos_for_free)
+- [Happy Glass Clone pt.2](/notes/1645965974_happy_glass_clone_pt2)
+- [Happy Glass Clone pt.1](/notes/1645533974_happy_glass_clone_pt1)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
