@@ -1,20 +1,83 @@
-name: Latest blog post workflow
+name: Update README RSS
+
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: write
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Pull in dev.to posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          max_post_count: "4"
-          feed_list: "https://siannas.github.io/blog/rss.xml"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README from RSS feed
+        env:
+          FEED_URL: https://siannas.github.io/blog/rss.xml
+          SITE_URL: https://siannas.github.io/blog
+          README_PATH: README.md
+          MAX_POSTS: "4"
+        run: |
+          python <<'PY'
+          import os
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          feed_url = os.environ["FEED_URL"]
+          site_url = os.environ["SITE_URL"].rstrip("/")
+          readme_path = Path(os.environ["README_PATH"])
+          max_posts = int(os.environ["MAX_POSTS"])
+
+          with urllib.request.urlopen(feed_url) as response:
+              rss_content = response.read()
+
+          root = ET.fromstring(rss_content)
+          items = root.findall("./channel/item")[:max_posts]
+
+          lines = []
+          for item in items:
+              title = (item.findtext("title") or "Untitled post").strip()
+              link = (item.findtext("link") or "").strip()
+
+              if link.startswith("/"):
+                  link = f"{site_url}{link}"
+              elif link and not link.startswith("http://") and not link.startswith("https://"):
+                  link = f"{site_url}/{link.lstrip('/')}"
+
+              lines.append(f"- [{title}]({link})")
+
+          if not lines:
+              lines.append("- No posts published yet.")
+
+          start_marker = "<!-- BLOG-POST-LIST:START -->"
+          end_marker = "<!-- BLOG-POST-LIST:END -->"
+          readme = readme_path.read_text()
+
+          start_index = readme.find(start_marker)
+          end_index = readme.find(end_marker)
+          if start_index == -1 or end_index == -1 or end_index < start_index:
+              raise ValueError("README markers for blog post list were not found.")
+
+          start_index += len(start_marker)
+          replacement = "\n" + "\n".join(lines) + "\n"
+          updated = readme[:start_index] + replacement + readme[end_index:]
+          readme_path.write_text(updated)
+          PY
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README RSS feed"
+          git push
