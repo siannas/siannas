@@ -1,19 +1,19 @@
 <h1>Hi, I'm Annas 👋 </h1>
-
 &emsp;
-
 <h3 align="left">a backend engineer who likes simple efficient stuff for better life.</h3>
 
 &emsp;
+<h3><img align="left" src="https://github.com/siannas/siannas/blob/main/images/quote-start.svg?raw=true" width="30"></h3>
 &emsp;
-
-<h3 align="left"><img align="right" src="https://github.com/siannas/siannas/blob/main/images/quote-start.svg?raw=true" width="30"></h3>
 
 <p>I’m most into the backend, but working as fullstack developer feels natural too. I enjoy shipping features with an agile mindset, keeping security in view, and using AI tools to speed up the boring parts without losing care for the code. My favorite toolkit includes Laravel, Fastify, Python, Docker, and AWS, and I’m always looking for cleaner workflows that make developer life easier.</p>
 
-<h3 align="right"><img align="right" src="https://github.com/siannas/siannas/blob/main/images/quote-end.svg?raw=true" width="30"></h3>
+<h3><img align="right" src="https://github.com/siannas/siannas/blob/main/images/quote-end.svg?raw=true" width="30"></h3>
 
 &emsp;
+
+
+
 -------------------
 &emsp;
 
