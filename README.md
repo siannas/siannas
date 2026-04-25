@@ -1,22 +1,28 @@
-<h1>Hi, I'm Annas 👋 </h1> 
-<h3 align="left">&tab;&tab;&tab;a backend engineer who likes simple efficient stuff for better life.</h3>
+<h1>Hi, I'm Annas 👋 </h1>
 
-<h3 align="left">&amp;#128630;<a href="#"><img align="right" src="https://github.com/siannas/siannas/blob/main/images/siannasGG.svg?raw=true" width="150"></a></h3>
+&emsp;
 
-I’m most into the backend, but working as fullstack developer feels natural too. I enjoy shipping features with an agile mindset, keeping security in view, and using AI tools to speed up the boring parts without losing care for the code. My favorite toolkit includes Laravel, Fastify, Python, Docker, and AWS, and I’m always looking for cleaner workflows that make developer life easier.
+<h3 align="left">a backend engineer who likes simple efficient stuff for better life.</h3>
 
-<h3 align="right">&amp;#128631;</h3>
+&emsp;
+&emsp;
+
+<h3 align="left"><img align="right" src="https://github.com/siannas/siannas/blob/main/images/quote-start.svg?raw=true" width="30"></h3>
+
+<p>I’m most into the backend, but working as fullstack developer feels natural too. I enjoy shipping features with an agile mindset, keeping security in view, and using AI tools to speed up the boring parts without losing care for the code. My favorite toolkit includes Laravel, Fastify, Python, Docker, and AWS, and I’m always looking for cleaner workflows that make developer life easier.</p>
+
+<h3 align="right"><img align="right" src="https://github.com/siannas/siannas/blob/main/images/quote-end.svg?raw=true" width="30"></h3>
 
 &emsp;
 -------------------
 &emsp;
 
-### Best Arsenal ⚔️
+### Fav Tools ⚔️
 &emsp;
 ![Arch Linux](https://img.shields.io/badge/-%E2%9D%A4%EF%B8%8FArch%20Linux-fdce69?style=for-the-badge)
 ![Neovim](https://img.shields.io/badge/-Neovim-fdce69?logo=Neovim&style=for-the-badge)
-![Copilot AI](https://img.shields.io/badge/-Copilot-fdce69?logo=Githubcopilot&style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fdce69?logo=PostgreSQL&style=for-the-badge)
+![Copilot AI](https://img.shields.io/badge/-Copilot-fdce69?logo=Githubcopilot&style=for-the-badge&logoColor=bc6400)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-fdce69?logo=PostgreSQL&style=for-the-badge&logoColor=bc6400)
 ![Docker](https://img.shields.io/badge/-Docker-fdce69?logo=Docker&style=for-the-badge)
 
 &emsp;
@@ -25,9 +31,9 @@ I’m most into the backend, but working as fullstack developer feels natural to
 &emsp;
 Open for chats, collabs, and opportunities.
 
-- ![massive.annas@gmail.com](https://img.shields.io/badge/-massive.annas@gmail.com-fdce69?&logo=gmail)
-- ![reddit](https://img.shields.io/reddit/user-karma/link/Next-Patience1557)
-- ![GitHub: siannas](https://img.shields.io/github/followers/siannas?label=follow&style=social)
+- <a href="mailto:user@example.com"><img src="https://img.shields.io/badge/-massive.annas@gmail.com-fdce69?&logo=gmail"/></a>
+- <a href="https://www.reddit.com/user/Next-Patience1557/"><img src="https://img.shields.io/reddit/user-karma/link/Next-Patience1557"/></a>
+- <a href="https://github.com/siannas"><img src="https://img.shields.io/github/followers/siannas?label=follow&style=social"/></a>
 
 &emsp;
 
